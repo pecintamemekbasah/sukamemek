@@ -370,7 +370,7 @@ fi
 if [[ $domain2 == "1" ]]; then
 clear
 echo -e  "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e  "${tyblue}│  \033[1;37mContoh subdomain xxx.vipme.my.id        ${tyblue}│${NC}" | lolcat
+echo -e  "${tyblue}│  \033[1;37mContoh subdomain xxx.vps-ku.my.id        ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}│    \033[1;37mxxx jadi subdomain kamu               ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 echo " "
@@ -387,6 +387,8 @@ mkdir -p /etc/nsdomain
 mkdir -p /etc/per
 touch /etc/per/id
 touch /etc/per/token
+touch /etc/typexray
+touch /etc/waktulock
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
