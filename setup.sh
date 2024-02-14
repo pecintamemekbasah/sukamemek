@@ -200,7 +200,7 @@ USERGIT=$(cat /etc/github/username)
 hhari3=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/Telorswich
 cd /root/Telorswich
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 sed -i "/# RESELLER/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/RafanSC/penak
 
@@ -230,7 +230,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "$KEY2 days" +"%Y-%m-%d")
 mkdir /root/Telorswich
 cd /root/Telorswich
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
 sed -i "/# RESELLER/a ### ${author} ${hhari} ${MYIP} ${ADMIN} ${TOTALIP}" /root/RafanSC/penak
 else
@@ -385,8 +385,10 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
+mkdir -p /etc/xray/ssh
+mkdir -p /etc/xray/perlogin/
+touch /etc/xray/perlogin/token
+touch /etc/xray/perlogin/id
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
@@ -416,8 +418,10 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
+mkdir -p /etc/xray/ssh
+mkdir -p /etc/xray/perlogin/
+touch /etc/xray/perlogin/token
+touch /etc/xray/perlogin/id
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
