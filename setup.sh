@@ -489,7 +489,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -533,47 +533,47 @@ clear
 } 
 
 res3() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
 res4() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
 
 res5() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
 
 res6() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
 res8() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
 clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 }
 
 res10() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
 clear
 }
 
 res11() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 }
 
@@ -643,7 +643,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://raw.githubusercontent.com/RafanSC/penamas/master/penak | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://raw.githubusercontent.com/Telorswich/penamas/master/penak | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
 EXP=$(( (d1 - d2) / 86400 ))
@@ -690,7 +690,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
