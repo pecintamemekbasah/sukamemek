@@ -361,7 +361,7 @@ echo -e "${tyblue}┌───────────────────�
 echo -e "${tyblue}│ \033[1;37mPlease select a your Choice to Set Domain${tyblue}│${NC}" | lolcat
 echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e "${tyblue}│  [ 1 ]  \033[1;37mDomain xxx.vipme.my.id         ${NC}"
+echo -e "${tyblue}│  [ 1 ]  \033[1;37mDomain xxx.net-cyber.my.id         ${NC}"
 echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 until [[ $domain2 =~ ^[1-5]+$ ]]; do 
 read -p "   Please select numbers 1 atau 2 : " domain2
@@ -401,7 +401,7 @@ elif [[ $domain2 == "2" ]]; then
 clear
 clear
 echo -e  "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e  "${tyblue}│  \033[1;37mDomain xxx.server-premium.my.id      ${tyblue}│${NC}" | lolcat
+echo -e  "${tyblue}│  \033[1;37mDomain xxx.net-cyber.my.id      ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}│    \033[1;37mxxx jadi domain kamu               ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 echo " "
