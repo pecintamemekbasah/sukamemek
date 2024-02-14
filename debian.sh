@@ -617,7 +617,7 @@ fun_bar 'res9'
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="-1001796404259"
+CHATID="-"
 KEY="6269531379:AAHXp-4nxp2b0nK4vVePV5G0iiUNxxLFxBg"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
