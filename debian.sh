@@ -4,11 +4,11 @@ MYIP=$(curl -sS ipv4.icanhazip.com)
 IPVPS=$(curl -sS https://raw.githubusercontent.com/Telorswich/penamas/master/penak | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
-asmaulchusna2
+Genjerr2
 else
   key2
   domain
-  asmaulchusna2
+  Genjerr2
 fi
 }
 clear
