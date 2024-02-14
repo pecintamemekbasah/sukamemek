@@ -79,9 +79,9 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/api
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/email
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -118,19 +118,19 @@ if [ -z $kode ]; then
 echo -e "KODE SALAH SILAHKAN MASUKKAN ULANG KODENYA"
 key2
 fi
-LIST=$(curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key | grep $kode | awk '{print $2}')
-Key=$(curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key | grep $kode | awk '{print $3}')
-KEY2=$(curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key | grep $kode | awk '{print $4}')
-ADMIN=$(curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key | grep $kode | awk '{print $5}')
-TOTALIP=$(curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key | grep $kode | awk '{print $6}')
+LIST=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $2}')
+Key=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $3}')
+KEY2=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $4}')
+ADMIN=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $5}')
+TOTALIP=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $6}')
 cd
 if [[ $kode == "PENAMAS" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/api
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/email
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -159,9 +159,9 @@ MYIP2=$(curl -sS ipv4.icanhazip.com)
 author2=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/api
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/email
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -190,9 +190,9 @@ MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/api
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/email
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -220,9 +220,9 @@ elif [[ $kode == $Key ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/api
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/email
-curl -s https://pastebin.com/raw/a9s8Mqqd > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -249,7 +249,7 @@ git remote add origin https://github.com/${USERGIT}/master/penamas >/dev/null 2>
 git push -f https://${APIGIT}@github.com/${USERGIT}/master/penamas >/dev/null 2>&1
 sleep 0.5
 rm penak
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/license/key >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/license/master/key >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
 sed -i "/^### $LIST $Key $KEY2 $ADMIN $TOTALIP/d" /root/Telorswich/key
 else
@@ -341,6 +341,9 @@ rm -rf /etc/per
 mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
+mkdir -p /etc/per
+touch /etc/per/id
+touch /etc/per/token
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
@@ -387,8 +390,6 @@ mkdir -p /etc/nsdomain
 mkdir -p /etc/per
 touch /etc/per/id
 touch /etc/per/token
-touch /etc/typexray
-touch /etc/waktulock
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
