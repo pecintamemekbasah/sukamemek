@@ -303,11 +303,11 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/bismillahirahmanirohim.sh && chmod +x bismillahirahmanirohim.sh && ./bismillahirahmanirohim.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/bismillahirahmanirohim.sh && chmod +x bismillahirahmanirohim.sh && ./bismillahirahmanirohim.sh
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/bismillahirahmanirohim1.sh && chmod +x bismillahirahmanirohim1.sh && ./bismillahirahmanirohim1.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/bismillahirahmanirohim1.sh && chmod +x bismillahirahmanirohim1.sh && ./bismillahirahmanirohim1.sh
 clear
 }
 clear
@@ -370,7 +370,7 @@ fi
 if [[ $domain2 == "1" ]]; then
 clear
 echo -e  "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e  "${tyblue}│  \033[1;37mContoh subdomain xxx.vps-ku.my.id        ${tyblue}│${NC}" | lolcat
+echo -e  "${tyblue}│  \033[1;37mContoh subdomain xxx.vps-ku.my.id       ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}│    \033[1;37mxxx jadi subdomain kamu               ${tyblue}│${NC}" | lolcat
 echo -e  "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 echo " "
@@ -484,12 +484,12 @@ EOF
 cat <<EOF>> /etc/RafanSC/theme/color.conf
 red
 EOF
-function RafanSC2(){
+function Genjerr2(){
 cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -528,42 +528,42 @@ fun_bar() {
 
 
 res2() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 } 
 
 res3() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
 res4() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
 
 res5() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
 
 res6() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
 res8() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
 clear
 }
 
@@ -611,8 +611,8 @@ fun_bar 'res9'
 
 function iinfo(){
 TIMES="10"
-CHATID="-1001796404259"
-KEY="6269531379:AAHXp-4nxp2b0nK4vVePV5G0iiUNxxLFxBg"
+CHATID="-100179644259"
+KEY="6269531379:AAHXp-4nxp2b0nK4vVePVG0iiUNxxLFxBg"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
@@ -621,7 +621,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com | awk -F. '{ print $1"."$2".xxx.xxx" }')
-IZIN=$(curl -sS https://raw.githubusercontent.com/RafanSC/penamas/master/penak | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://raw.githubusercontent.com/Telorswich/penamas/master/penak | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
 EXP=$(( (d1 - d2) / 86400 ))
@@ -668,7 +668,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
