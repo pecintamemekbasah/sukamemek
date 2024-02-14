@@ -384,11 +384,13 @@ rm -rf /etc/per
 mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
-mkdir -p /etc/per
+mkdir -p /etc/perlogin
 mkdir -p /etc/xray/ssh
 mkdir -p /etc/xray/perlogin/
 touch /etc/xray/perlogin/token
 touch /etc/xray/perlogin/id
+touch /etc/typexray
+touch /etc/waktulock
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
@@ -410,18 +412,16 @@ echo " "
 until [[ $dn2 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
 read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn2
 done
-mkdir -p /etc/xray/ssh
-mkdir -p /etc/xray/perlogin/
-touch /etc/xray/perlogin/token
-touch /etc/xray/perlogin/id
 mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
-mkdir -p /etc/per
+mkdir -p /etc/perlogin
 mkdir -p /etc/xray/ssh
 mkdir -p /etc/xray/perlogin/
 touch /etc/xray/perlogin/token
 touch /etc/xray/perlogin/id
+touch /etc/typexray
+touch /etc/waktulock
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
