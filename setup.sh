@@ -1,7 +1,7 @@
 #!/bin/bash
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/RafanSC/penamas/master/penak | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://raw.githubusercontent.com/Telorswich/penamas/master/penak | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 RafanSC2
@@ -79,17 +79,17 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/api
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/email
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "1 days" +"%Y-%m-%d")
-mkdir /root/RafanSC
-cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+mkdir /root/Telorswich
+cd /root/Telorswich
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 echo "### $author $hhari $MYIP @trial" >> penak
 sleep 1
 rm -rf .git
@@ -118,27 +118,27 @@ if [ -z $kode ]; then
 echo -e "KODE SALAH SILAHKAN MASUKKAN ULANG KODENYA"
 key2
 fi
-LIST=$(curl -sS https://raw.githubusercontent.com/RafanSC/license/master/key | grep $kode | awk '{print $2}')
-Key=$(curl -sS https://raw.githubusercontent.com/RafanSC/license/master/key | grep $kode | awk '{print $3}')
-KEY2=$(curl -sS https://raw.githubusercontent.com/RafanSC/license/master/key | grep $kode | awk '{print $4}')
-ADMIN=$(curl -sS https://raw.githubusercontent.com/RafanSC/license/master/key | grep $kode | awk '{print $5}')
-TOTALIP=$(curl -sS https://raw.githubusercontent.com/RafanSC/license/master/key | grep $kode | awk '{print $6}')
+LIST=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $2}')
+Key=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $3}')
+KEY2=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $4}')
+ADMIN=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $5}')
+TOTALIP=$(curl -sS https://raw.githubusercontent.com/Telorswich/license/master/key | grep $kode | awk '{print $6}')
 cd
 if [[ $kode == "PENAMAS" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/api
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/email
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "30 days" +"%Y-%m-%d")
-mkdir /root/RafanSC
-cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+mkdir /root/Telorswich
+cd /root/Telorswich
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 echo "### $author $hhari $MYIP @Rafanstr18" >> penak
 
@@ -159,17 +159,17 @@ MYIP2=$(curl -sS ipv4.icanhazip.com)
 author2=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/api
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/email
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
 hhari2=$(date -d "999 days" +"%Y-%m-%d")
-mkdir /root/RafanSC
-cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+mkdir /root/Telorswich
+cd /root/Telorswich
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 sed -i "/# VIP/a ### ${author2} ${hhari2} ${MYIP2} ON 999 VIP" /root/RafanSC/penak
 
@@ -190,16 +190,16 @@ MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/api
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/email
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
 hhari3=$(date -d "999 days" +"%Y-%m-%d")
-mkdir /root/RafanSC
-cd /root/RafanSC
+mkdir /root/Telorswich
+cd /root/Telorswich
 wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
 
 sed -i "/# RESELLER/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/RafanSC/penak
@@ -220,16 +220,16 @@ elif [[ $kode == $Key ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/api
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/email
-curl -s https://pastebin.com/raw/11ViuDUb > /etc/github/username
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/api
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/email
+curl -s https://pastebin.com/raw/iXbLmUfh > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "$KEY2 days" +"%Y-%m-%d")
-mkdir /root/RafanSC
-cd /root/RafanSC
+mkdir /root/Telorswich
+cd /root/Telorswich
 wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
 sed -i "/# RESELLER/a ### ${author} ${hhari} ${MYIP} ${ADMIN} ${TOTALIP}" /root/RafanSC/penak
@@ -249,11 +249,11 @@ git remote add origin https://github.com/${USERGIT}/master/penamas >/dev/null 2>
 git push -f https://${APIGIT}@github.com/${USERGIT}/master/penamas >/dev/null 2>&1
 sleep 0.5
 rm penak
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/license/key >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/license/master/key >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
-sed -i "/^### $LIST $Key $KEY2 $ADMIN $TOTALIP/d" /root/RafanSC/key
+sed -i "/^### $LIST $Key $KEY2 $ADMIN $TOTALIP/d" /root/Telorswich/key
 else
-sed -i "/^### $LIST $Key $KEY2/d" /root/RafanSC/key
+sed -i "/^### $LIST $Key $KEY2/d" /root/Telorswich/key
 fi
 sleep 0.5
 rm -rf .git
@@ -265,7 +265,7 @@ git commit -m register >/dev/null 2>&1
 git branch -M master >/dev/null 2>&1
 git remote add origin https://github.com/${USERGIT}/master/license >/dev/null 2>&1
 git push -f https://${APIGIT}@github.com/${USERGIT}/master/license >/dev/null 2>&1
-rm -rf /root/RafanSC
+rm -rf /root/Telorswich
 rm -rf /etc/github
 clear
 else
