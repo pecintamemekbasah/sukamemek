@@ -557,7 +557,7 @@ clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 }
 
@@ -567,17 +567,7 @@ clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
-clear
-}
-
-res10() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
-clear
-}
-
-res11() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
@@ -621,16 +611,6 @@ echo -e "${tyblue}┌───────────────────�
 echo -e "${tyblue}│           DOWNLOAD SYSTEM                │${NC}" | lolcat
 echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 fun_bar 'res9'
-
-echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e "${tyblue}│           DOWNLOAD LIMIT XRAY               │${NC}" | lolcat
-echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
-fun_bar 'res10'
-
-echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e "${tyblue}│           DOWNLOAD FILE                     │${NC}" | lolcat
-echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
-fun_bar 'res11'
 }
 
 
