@@ -385,6 +385,12 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
+mkdir -p /etc/xray/ssh
+mkdir -p /etc/xray/perlogin/
+touch /etc/xray/perlogin/token
+touch /etc/xray/perlogin/id
+touch /etc/typexray
+touch /etc/waktulock
 touch /etc/per/id
 touch /etc/per/token
 touch /etc/xray/domain
@@ -416,6 +422,12 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
+mkdir -p /etc/xray/ssh
+mkdir -p /etc/xray/perlogin/
+touch /etc/xray/perlogin/token
+touch /etc/xray/perlogin/id
+touch /etc/typexray
+touch /etc/waktulock
 touch /etc/per/id
 touch /etc/per/token
 touch /etc/xray/domain
@@ -567,16 +579,6 @@ wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installs
 clear
 }
 
-res10() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
-clear
-}
-
-res11() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
-clear
-}
-
 echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
 echo -e "${tyblue}│      PROCESS INSTALLED SSH & OPENVPN     │${NC}" | lolcat
 echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
@@ -617,24 +619,14 @@ echo -e "${tyblue}┌───────────────────�
 echo -e "${tyblue}│           DOWNLOAD SYSTEM                │${NC}" | lolcat
 echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
 fun_bar 'res9'
-
-echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e "${tyblue}│           DOWNLOAD LIMIT XRAY               │${NC}" | lolcat
-echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
-fun_bar 'res10'
-
-echo -e "${tyblue}┌──────────────────────────────────────────┐${NC}" | lolcat
-echo -e "${tyblue}│           DOWNLOAD FILE                     │${NC}" | lolcat
-echo -e "${tyblue}└──────────────────────────────────────────┘${NC}" | lolcat
-fun_bar 'res11'
 }
 
 
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="-1001796404259"
-KEY="6269531379:AAHXp-4nxp2b0nK4vVePV5G0iiUNxxLFxBg"
+CHATID="6285234805"
+KEY="6838495061:AAGq5FPwqVNVs0YtvOjcKpFW4CAIs7fCbpM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
@@ -643,7 +635,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://raw.githubusercontent.com/RafanSC/penamas/master/penak | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://raw.githubusercontent.com/Telorswich/penamas/master/penak | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
 EXP=$(( (d1 - d2) / 86400 ))
