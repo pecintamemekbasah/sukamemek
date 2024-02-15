@@ -89,7 +89,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "1 days" +"%Y-%m-%d")
 mkdir /root/RafanSC
 cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 echo "### $author $hhari $MYIP @trial" >> penak
 sleep 1
 rm -rf .git
@@ -138,7 +138,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "30 days" +"%Y-%m-%d")
 mkdir /root/RafanSC
 cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 echo "### $author $hhari $MYIP @Rafanstr18" >> penak
 
@@ -169,7 +169,7 @@ USERGIT=$(cat /etc/github/username)
 hhari2=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/RafanSC
 cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 sed -i "/# VIP/a ### ${author2} ${hhari2} ${MYIP2} ON 999 VIP" /root/RafanSC/penak
 
@@ -200,7 +200,7 @@ USERGIT=$(cat /etc/github/username)
 hhari3=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/RafanSC
 cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 
 sed -i "/# RESELLER/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/RafanSC/penak
 
@@ -230,7 +230,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "$KEY2 days" +"%Y-%m-%d")
 mkdir /root/RafanSC
 cd /root/RafanSC
-wget https://raw.githubusercontent.com/RafanSC/penamas/master/penak >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Telorswich/penamas/master/penak >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
 sed -i "/# RESELLER/a ### ${author} ${hhari} ${MYIP} ${ADMIN} ${TOTALIP}" /root/RafanSC/penak
 else
@@ -489,7 +489,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -528,52 +528,52 @@ fun_bar() {
 
 
 res2() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 } 
 
 res3() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
 res4() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
 
 res5() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
 
 res6() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
 res8() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/install/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
 clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 }
 
 res10() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/sh.sh && chmod +x sh.sh && ./sh.sh
 clear
 }
 
 res11() {
-wget https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 }
 
@@ -690,7 +690,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/RafanSC/asmaulchusna/master/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Genjerr/grengerua/master/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
