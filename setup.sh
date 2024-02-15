@@ -385,12 +385,6 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
-mkdir -p /etc/xray/ssh
-mkdir -p /etc/xray/perlogin/
-touch /etc/xray/perlogin/token
-touch /etc/xray/perlogin/id
-touch /etc/typexray
-touch /etc/waktulock
 touch /etc/per/id
 touch /etc/per/token
 touch /etc/xray/domain
@@ -422,12 +416,6 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
 mkdir -p /etc/per
-mkdir -p /etc/xray/ssh
-mkdir -p /etc/xray/perlogin/
-touch /etc/xray/perlogin/token
-touch /etc/xray/perlogin/id
-touch /etc/typexray
-touch /etc/waktulock
 touch /etc/per/id
 touch /etc/per/token
 touch /etc/xray/domain
