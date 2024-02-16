@@ -484,6 +484,24 @@ EOF
 cat <<EOF>> /etc/RafanSC/theme/color.conf
 red
 EOF
+cat >/etc/systemd/system/xp.service << EOF
+[Unit]
+Description=My 
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/xp
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl daemon-reload
+systemctl restart xp
+systemctl enable xp
+systemctl restart xp
+EOF
 function RafanSC2(){
 cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
