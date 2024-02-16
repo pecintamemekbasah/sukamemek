@@ -571,7 +571,7 @@ clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/menu/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 clear
 }
 
@@ -581,7 +581,7 @@ clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/Genjerr/grengerua/master/slowdns/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
