@@ -341,6 +341,10 @@ rm -rf /etc/per
 mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/nsdomain
+mkdir -p /etc/xray/ssh
+mkdir -p /etc/xray/perlogin/
+touch /etc/xray/perlogin/token
+touch /etc/xray/perlogin/id
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/slwdomain
